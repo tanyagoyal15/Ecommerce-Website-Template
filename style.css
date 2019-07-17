@@ -578,21 +578,6 @@ body {
 	clear: both;
 }
 
-/*.nivo-caption {
-	background-color: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-	bottom: auto;
-	color: #fff;
-	display: none;
-	left: 0;
-	opacity: 1;
-	overflow: visible;
-	padding: 0;
-	position: absolute;
-	top: 50%5;
-	transform: translateY(-50%);
-	width: 100%;
-	z-index: 6;
-}*/
 #my-slider .carousel-caption {
 	float: left;
 	/*background: blue;*/
@@ -655,28 +640,7 @@ body {
 	border-color: #292929;
 	color: #fff;
 }
-/*.carousel-caption {
-  bottom: 5px;
-  left: 50%;
-  margin: 0 auto;
-  position: absolute;
-  transform: translateX(-50%);
-  z-index: 23;
-}
-.carousel-caption a {
-  background: #e1e1e1 none repeat scroll 0 0;
-  border-radius:0;
-  display: inline-block;
-  height: 3px;
-	margin: 0 5px;
-  text-indent: -99999px;
-  width: 25px;
-}
-.carousel-caption a .carousel-caption.active {
-  background: #292929  none repeat scroll 0 0;
-  border-image: none;
-  border-radius:0;
-}*/
+
 /* founder-area*/
 .founder-description h3 {
 	color: #929292;
@@ -979,35 +943,7 @@ color: #fff;
  overflow:visible;
  height:auto;
 }
-/*.product-active.owl-carousel.owl-theme .owl-controls{}
-.product-active.owl-carousel.owl-theme .owl-controls .owl-nav div,.blog-active.owl-carousel.owl-theme .owl-controls .owl-nav div{
-	background: #f7f7f9 none repeat scroll 0 0;
-	border: 3px solid #e1e1e1;
-	border-radius: 100%;
-	font-size:18px;
-	color: #9e9e9e;
-	height: 50px;
-	opacity: 0;
-	position: absolute;
-	line-height:46px;
-	text-align: center;
-	top: 50%;
-	width: 50px;
-	transform:translateY(-50%);
-	transition:.3s;
-}
-.product-active.owl-carousel.owl-theme .owl-controls .owl-nav div.owl-next,.blog-active.owl-carousel.owl-theme .owl-controls .owl-nav div.owl-next{
-	left:auto;
-	right:0;
-}
-.product-active.owl-carousel.owl-theme .owl-controls .owl-nav div:hover,.blog-active.owl-carousel.owl-theme .owl-controls .owl-nav div:hover{
-	background: #292929 none repeat scroll 0 0;
-	border-color: #292929;
-	color: #fff;
-}
-.product-active:hover.owl-carousel.owl-theme .owl-controls .owl-nav div,.blog-active:hover.owl-carousel.owl-theme .owl-controls .owl-nav div{
-	opacity:1;
-}*/
+
 /*testimonial area*/
 .testimonial-area {
 	background:#f6f6f6 url("img/banner/6.jpg");
@@ -1041,50 +977,13 @@ color: #fff;
 	line-height: 30px;
 	margin: 15px 0 0;
 }
-/*.testimonial-active.owl-carousel.owl-theme .owl-controls .owl-nav div{
-	color: #cecece;
-	position: absolute;
-	top: 50%;
-	transform:translateY(-50%);
-	font-size:48px;
-	opacity:0;
-	transition:.3s;
-}
-.testimonial-active.owl-carousel.owl-theme .owl-controls .owl-nav div.owl-next{
-	left:auto;
-	right:0;
-}
-.testimonial-active.owl-carousel.owl-theme .owl-controls .owl-nav div:hover{
-	color:#292929;
-}
-.testimonial-area:hover .testimonial-active.owl-carousel.owl-theme .owl-controls .owl-nav div{
-	opacity:1;
-	}
-
-/* slidebanner-net css*/
 
 .glyphicon {
 	content: "";
-	/*position: absolute;*/
-	/*opacity: 0;*/
 	visibility: hidden;
-	/*width: 50px;
-	height: 50px;
-	border-radius: 50%;
-	background: #000;
-	transition: opacity 0.2s;*/
 }
-/*.glyphicon-left {
-	left: 10px;
-}
-.right .carousel-control {
-	right: 0px;
-	left: 600px;
-}*/
 .carousel:hover .glyphicon {
 	visibility: visible;
-	/*opacity: 1;*/
-	/*position: absolute;*/
 	width: 50px;
 	height: 50px;
 	border-radius: 50%;
@@ -1092,12 +991,7 @@ color: #fff;
 	padding: 5px 5px 5px 5px;
 	transition: opacity 0.2s;
 	color: white;
-	/*border-color: blue;*/
 }
-/*.glyphicon-chevron-right,.glyphicon-chevron-left {
-	text-align: center;
-	font-weight: 10;
-}*/
 .carousel-indicators.active {
 	width: 50px;
 	height: 4px;
@@ -1211,9 +1105,7 @@ color: #fff;
 	padding-bottom: 5px;
 }
 
-/*----------------------------------------*/
-/* 11.  newslatter-area
-/*----------------------------------------*/
+/* 11.  newslatter-area */
 .newslatter-area{}
 .bt-top{
 	border-top:1px solid #ebebeb;
@@ -1277,12 +1169,8 @@ color: #fff;
   transition: all 0.3s ease 0s;
   border-left: 2px solid #ebebeb;
 }
-/*----------------------------------------*/
-/* 12.  footer
-/*----------------------------------------*/
-/*----------------------------------------*/
-/* 12.1  footer-area
-/*----------------------------------------*/
+/* 12  footer-area */
+
 .footer-area{
 	border-top:1px solid #ebebeb;
 	overflow:hidden;
@@ -2230,11 +2118,7 @@ p.checkout-coupon input[type="submit"] {
   border-radius: 2px 0 0 2px;
   height: 5px;
 }
-/* contact */
-/*#googleMap{
-	height: 410px;
-	width: 100%;
-}*/
+
 .contact-info h3,.contact-form h3{
 	border-bottom: 2px solid #e8e8e9;
 	font-size: 16px;
