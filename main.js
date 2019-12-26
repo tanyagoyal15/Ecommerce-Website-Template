@@ -138,11 +138,11 @@ $(function() {
  });
  $("#amount").val("$" + $("#slider-range").slider( "values", 0 ) + "-$" + $("#slider-range").slider("values", 1 ) );
 
- //////////////////////////////////////////////////
- // scroll up 
- $.scrollUp({
- 	scrollText: '<i class="fa fa-angle-up"></i>',
- 	easingType: 'linear',
- 	scrollSpeed: 900,
- 	animation:'fade'
- });
+//  //////////////////////////////////////////////////
+//  // scroll up 
+//  $.scrollUp({
+//  	scrollText: '<i class="fa fa-angle-up"></i>',
+//  	easingType: 'linear',
+//  	scrollSpeed: 900,
+//  	animation:'fade'
+//  });
